@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Ucapan Ulang Tahun Gladis</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&amp;family=Karla:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin:0; background:#FBF1E7; }
+  a { color:#8C3A3A; text-decoration:none; }
+  a:hover { color:#6E2C2C; }
+</style>
+</helmet>
+<div style="width:100%; min-height:100vh; background:#FBF1E7; display:flex; justify-content:center;">
+  <div style="width:100%; max-width:680px; padding:56px 24px 88px; display:flex; flex-direction:column; align-items:center; gap:60px; font-family:'Karla',sans-serif; color:#3B2A2A;">
+
+    <div style="display:flex; flex-direction:column; align-items:center; gap:18px; text-align:center;">
+      <div style="font-size:13px; font-weight:600; letter-spacing:2.5px; text-transform:uppercase; color:#7A4A32;">Untuk Gladis</div>
+      <button type="button" onClick="{{openCard}}" aria-label="Buka amplop ucapan untuk Gladis" style="all:unset; display:block; position:relative; width:min(260px,70vw); aspect-ratio:3/2; cursor:pointer;">
+        <div style="position:absolute; inset:0; border-radius:10px; background:{{accent}}; box-shadow:0 12px 26px rgba(60,30,20,0.2);"></div>
+        <div style="position:absolute; top:0; left:0; right:0; height:52%; background:#6E2C2C; clip-path:polygon(0 0,100% 0,50% 100%); border-radius:10px 10px 0 0;"></div>
+        <div style="position:absolute; left:50%; top:48%; transform:translate(-50%,-50%); width:54px; height:54px; border-radius:50%; background:#D8A657; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 6px rgba(0,0,0,0.22);">
+          <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+            <circle cx="12" cy="12" r="2.3" fill="#FBF1E7"></circle>
+            <circle cx="12" cy="6.4" r="2.3" fill="#FBF1E7"></circle>
+            <circle cx="17.2" cy="9.4" r="2.3" fill="#FBF1E7"></circle>
+            <circle cx="17.2" cy="14.6" r="2.3" fill="#FBF1E7"></circle>
+            <circle cx="12" cy="17.6" r="2.3" fill="#FBF1E7"></circle>
+            <circle cx="6.8" cy="14.6" r="2.3" fill="#FBF1E7"></circle>
+            <circle cx="6.8" cy="9.4" r="2.3" fill="#FBF1E7"></circle>
+          </svg>
+        </div>
+      </button>
+      <div style="font-size:14px; color:#8A7267;">{{coverHint}}</div>
+    </div>
+
+    <sc-if value="{{opened}}" hint-placeholder-val="{{false}}">
+    <div style="width:100%; display:flex; flex-direction:column; align-items:center; gap:60px;">
+
+      <div style="text-align:center; display:flex; flex-direction:column; gap:14px; max-width:520px;">
+        <h1 style="margin:0; font-family:'Fraunces',serif; font-weight:600; font-size:clamp(28px,6vw,40px); color:{{accent}};">Selamat Ulang Tahun, Gladis! 🎉</h1>
+        <p style="margin:0; font-size:17px; line-height:1.7; color:#5B463F;">Semoga tahun ini penuh cerita baik, tawa bareng, dan banyak hal yang bikin lu makin bersinar.</p>
+      </div>
+
+      <div style="width:100%; display:flex; flex-direction:column; gap:22px; align-items:center;">
+        <div style="font-size:13px; font-weight:600; letter-spacing:2.5px; text-transform:uppercase; color:#7A4A32;">Foto Kenangan</div>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px;">
+
+          <div style="background:#FFFFFF; padding:10px 10px 26px; border-radius:3px; box-shadow:0 5px 12px rgba(60,40,30,0.14); transform:rotate(-5deg); width:120px;">
+            <img src="./assets/051ef469a9e7076f4065a7eb7ee8f031.jpg" alt="Foto kenangan Gladis - masa kecil" style="width:100px; height:100px; object-fit:cover; border-radius:2px; display:block;">
+          </div>
+
+          <div style="background:#FFFFFF; padding:10px 10px 26px; border-radius:3px; box-shadow:0 5px 12px rgba(60,40,30,0.14); transform:rotate(3deg); width:120px;">
+            <img src="./assets/75c439caf96c4a8f0296019937e2f344.jpg" alt="Foto kenangan Gladis" style="width:100px; height:100px; object-fit:cover; border-radius:2px; display:block;">
+          </div>
+
+          <div style="background:#FFFFFF; padding:10px 10px 26px; border-radius:3px; box-shadow:0 5px 12px rgba(60,40,30,0.14); transform:rotate(-2deg); width:120px;">
+            <img src="./assets/70e76110c7ea553d5f3641ce933ef1c1.jpg" alt="Foto kenangan Gladis" style="width:100px; height:100px; object-fit:cover; border-radius:2px; display:block;">
+          </div>
+
+          <div style="background:#FFFFFF; padding:10px 10px 26px; border-radius:3px; box-shadow:0 5px 12px rgba(60,40,30,0.14); transform:rotate(5deg); width:120px;">
+            <img src="./assets/a3202599405bb01c4460507f714efc65.jpg" alt="Foto kenangan Gladis" style="width:100px; height:100px; object-fit:cover; border-radius:2px; display:block;">
+          </div>
+
+        </div>
+      </div>
+
+      <div style="width:100%; background:#FFFBF6; border-radius:20px; padding:28px; display:flex; flex-direction:column; gap:12px; align-items:flex-start; box-shadow:0 2px 10px rgba(60,40,30,0.1);">
+        <div style="font-size:13px; font-weight:600; letter-spacing:2.5px; text-transform:uppercase; color:#7A4A32;">Lagu buat lu</div>
+        <div style="font-family:'Fraunces',serif; font-weight:600; font-size:25px; color:#3B2A2A;">Beranjak Dewasa</div>
+        <div style="font-size:15px; color:#8A7267;">Nadin Amizah</div>
+        <a href="https://www.youtube.com/results?search_query=Nadin+Amizah+Beranjak+Dewasa" target="_blank" rel="noopener" style="margin-top:6px; display:inline-flex; align-items:center; gap:8px; padding:14px 22px; border-radius:999px; background:{{accent}}; color:#FFF6EF; font-weight:600; font-size:14px;">Dengarkan di YouTube ↗</a>
+      </div>
+
+      <div style="width:100%; display:flex; flex-direction:column; gap:18px; align-items:center;">
+        <div style="font-size:13px; font-weight:600; letter-spacing:2.5px; text-transform:uppercase; color:#7A4A32;">Sepucuk Pesan</div>
+        <div style="width:100%; background:#FFFBF6; border-radius:6px; padding:36px 30px; box-shadow:0 3px 14px rgba(60,40,30,0.12);">
+          <p style="white-space:pre-line; font-family:'Fraunces',serif; font-style:italic; font-size:17px; line-height:1.9; color:#4A3832; margin:0;">gladis gengster bikin gemeter
+
+semoga di umur yang dah tua makin sukses, makin bahagia, makin cengeng, makin maki dah pokoknya, semoga makin banyak cerita seru dari lu dan semoga kita bisa sekelas lagi dan menggibah lagi          </p>
+        </div>
+      </div>
+
+      <div style="text-align:center; display:flex; flex-direction:column; gap:8px;">
+        <div style="font-family:'Fraunces',serif; font-size:22px; font-weight:500; color:{{accent}};">Selamat ulang tahun sekali lagi</div>
+        <div style="font-size:14px; color:#8A7267;">for me</div>
+      </div>
+
+    </div>
+    </sc-if>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#8C3A3A"},"$preview":{"width":900,"height":1900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const opened = !!(this.state && this.state.opened);
+    return {
+      accent: this.props.accent ?? '#8C3A3A',
+      opened,
+      coverHint: opened ? 'Sudah terbuka — gulir ke bawah untuk lihat semuanya ⬇' : 'Ketuk amplop untuk membuka',
+      openCard: () => this.setState({ opened: true }),
+    };
+  }
+}
+</script>
+</body>
+</html>
